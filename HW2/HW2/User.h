@@ -14,4 +14,9 @@
 @property   (weak, nonatomic)   NSString    *username;
 @property   (weak, nonatomic)   NSString    *password;
 
++(User*) userWithname:(NSString*) username andPassword:(NSString*) password;
+
+-(void) login;
+
+
 @end

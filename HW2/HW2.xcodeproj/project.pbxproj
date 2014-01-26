@@ -14,7 +14,7 @@
 		84F5D94C188A13100079FEF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5D94B188A13100079FEF7 /* main.m */; };
 		84F5D950188A13100079FEF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5D94F188A13100079FEF7 /* AppDelegate.m */; };
 		84F5D953188A13100079FEF7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F5D951188A13100079FEF7 /* MainStoryboard.storyboard */; };
-		84F5D956188A13100079FEF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5D955188A13100079FEF7 /* ViewController.m */; };
+		84F5D956188A13100079FEF7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5D955188A13100079FEF7 /* LoginViewController.m */; };
 		84F5D95E188A13EA0079FEF7 /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5D95D188A13EA0079FEF7 /* Route.m */; };
 		84F5D961188A16DF0079FEF7 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5D960188A16DF0079FEF7 /* Vehicle.m */; };
 		84F5D964188A1A5A0079FEF7 /* Bus.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F5D963188A1A5A0079FEF7 /* Bus.m */; };
@@ -33,8 +33,8 @@
 		84F5D94E188A13100079FEF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84F5D94F188A13100079FEF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84F5D952188A13100079FEF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		84F5D954188A13100079FEF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84F5D955188A13100079FEF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84F5D954188A13100079FEF7 /* LoginViewController.h */ = {isa = PBXFileReference; path = LoginViewController.h; sourceTree = "<group>"; };
+		84F5D955188A13100079FEF7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		84F5D95C188A13EA0079FEF7 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
 		84F5D95D188A13EA0079FEF7 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
 		84F5D95F188A16DF0079FEF7 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
@@ -100,8 +100,8 @@
 				84F5D94E188A13100079FEF7 /* AppDelegate.h */,
 				84F5D94F188A13100079FEF7 /* AppDelegate.m */,
 				84F5D951188A13100079FEF7 /* MainStoryboard.storyboard */,
-				84F5D954188A13100079FEF7 /* ViewController.h */,
-				84F5D955188A13100079FEF7 /* ViewController.m */,
+				84F5D954188A13100079FEF7 /* LoginViewController.h */,
+				84F5D955188A13100079FEF7 /* LoginViewController.m */,
 				84F5D946188A13100079FEF7 /* Supporting Files */,
 			);
 			path = HW2;
@@ -182,7 +182,7 @@
 			files = (
 				84F5D94C188A13100079FEF7 /* main.m in Sources */,
 				84F5D950188A13100079FEF7 /* AppDelegate.m in Sources */,
-				84F5D956188A13100079FEF7 /* ViewController.m in Sources */,
+				84F5D956188A13100079FEF7 /* LoginViewController.m in Sources */,
 				84F5D95E188A13EA0079FEF7 /* Route.m in Sources */,
 				84F5D961188A16DF0079FEF7 /* Vehicle.m in Sources */,
 				84F5D964188A1A5A0079FEF7 /* Bus.m in Sources */,
@@ -298,6 +298,7 @@
 				84F5D95B188A13100079FEF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,6 +12,20 @@
 
 @synthesize username, password;
 
++(User *) userWithname:(NSString *)name andPassword:(NSString *)password
+{
+    User *user= [[User  alloc]  init];
+    
+    user.username =  name;
+    user.password = password;
+    
+    return user;
+}
+
+-(void) login {
+    NSLog(@"Login user %@,%@", self.username, self.password);
+
+}
 
 
 @end

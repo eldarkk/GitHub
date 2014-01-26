@@ -6,12 +6,11 @@
 //  Copyright (c) 2014 __MyCompanyName__. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LoginViewController.h"
 
-@implementation ViewController
-@synthesize loginField;
-@synthesize passwordField;
-@synthesize logMessage;
+@implementation LoginViewController
+@synthesize txtLogin;
+@synthesize txtPassword;
 
 
 
@@ -32,9 +31,8 @@
 - (void)viewDidUnload
 {
 
-    [self setLoginField:nil];
-    [self setPasswordField:nil];
-    [self setLogMessage:nil];
+    [self setTxtLogin:nil];
+    [self setTxtPassword:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -67,10 +65,8 @@
 }
 
 - (IBAction)loginPressed:(id)sender {
-
-    NSLog(@"login button pressed");
-    
-    if (([loginField.text isEqualToString:@"login"]) && ([passwordField.text isEqualToString: @"password"]))
+   
+    if (([txtLogin.text isEqualToString:@"login"]) && ([txtPassword.text isEqualToString: @"password"]))
     {
         NSLog(@"Youre password is correct");     
     }
@@ -78,6 +74,13 @@
     {
         NSLog(@"Youre password is incorrect");
     }
+    
+    
+    User* user  = [User userWithname:txtLogin.text andPassword:txtPassword.text];
 
+   
+    [user   login];
+    
+    NSLog(@"%@", user);
 }
 @end
