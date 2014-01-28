@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84BB27CC18972A3E007A95E8 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB27CB18972A3E007A95E8 /* MapViewController.m */; };
 		84F5D940188A13100079FEF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F5D93F188A13100079FEF7 /* UIKit.framework */; };
 		84F5D942188A13100079FEF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F5D941188A13100079FEF7 /* Foundation.framework */; };
 		84F5D944188A13100079FEF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F5D943188A13100079FEF7 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84BB27CA18972A3E007A95E8 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		84BB27CB18972A3E007A95E8 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		84F5D93B188A13100079FEF7 /* HW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F5D93F188A13100079FEF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84F5D941188A13100079FEF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,7 +36,7 @@
 		84F5D94E188A13100079FEF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84F5D94F188A13100079FEF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84F5D952188A13100079FEF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		84F5D954188A13100079FEF7 /* LoginViewController.h */ = {isa = PBXFileReference; path = LoginViewController.h; sourceTree = "<group>"; };
+		84F5D954188A13100079FEF7 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		84F5D955188A13100079FEF7 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		84F5D95C188A13EA0079FEF7 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
 		84F5D95D188A13EA0079FEF7 /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Route.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				84F5D954188A13100079FEF7 /* LoginViewController.h */,
 				84F5D955188A13100079FEF7 /* LoginViewController.m */,
 				84F5D946188A13100079FEF7 /* Supporting Files */,
+				84BB27CA18972A3E007A95E8 /* MapViewController.h */,
+				84BB27CB18972A3E007A95E8 /* MapViewController.m */,
 			);
 			path = HW2;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 				84F5D961188A16DF0079FEF7 /* Vehicle.m in Sources */,
 				84F5D964188A1A5A0079FEF7 /* Bus.m in Sources */,
 				84F5D967188A1D330079FEF7 /* User.m in Sources */,
+				84BB27CC18972A3E007A95E8 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

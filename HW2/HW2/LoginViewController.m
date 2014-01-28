@@ -64,23 +64,24 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (IBAction)loginPressed:(id)sender {
-   
-    if (([txtLogin.text isEqualToString:@"login"]) && ([txtPassword.text isEqualToString: @"password"]))
-    {
-        NSLog(@"Youre password is correct");     
-    }
-    else    
-    {
-        NSLog(@"Youre password is incorrect");
-    }
-    
-    
+- (IBAction)loginPressed:(id)sender {   
+      
     User* user  = [User userWithname:txtLogin.text andPassword:txtPassword.text];
-
    
     [user   login];
     
-    NSLog(@"%@", user);
 }
+
+
 @end
+
+
+
+
+
+
+
+
+
+
+

@@ -11,8 +11,8 @@
 @interface User : NSObject
 
 
-@property   (weak, nonatomic)   NSString    *username;
-@property   (weak, nonatomic)   NSString    *password;
+@property   (strong, nonatomic)   NSString    *username;
+@property   (strong, nonatomic)   NSString    *password;
 
 +(User*) userWithname:(NSString*) username andPassword:(NSString*) password;
 

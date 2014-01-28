@@ -23,7 +23,14 @@
 }
 
 -(void) login {
-    NSLog(@"Login user %@,%@", self.username, self.password);
+    
+    if (([self.username length] > 0) & ([self.password length] > 0 )) {
+       
+        NSLog(@"Login user %@, password %@", self.username, self.password); 
+        
+    } else
+    
+        NSLog(@"Please enter youre login and password!");
 
 }
 

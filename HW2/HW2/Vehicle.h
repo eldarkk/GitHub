@@ -11,6 +11,6 @@
 @interface Vehicle : NSObject
 
 
-@property (nonatomic, retain) NSString *identifier;
+@property (nonatomic, strong) NSString *identifier;
 
 @end
