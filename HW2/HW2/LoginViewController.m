@@ -26,6 +26,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
 }
 
 - (void)viewDidUnload
@@ -69,6 +72,8 @@
     User* user  = [User userWithname:txtLogin.text andPassword:txtPassword.text];
    
     [user   login];
+    
+     [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 

@@ -10,6 +10,16 @@
 
 @implementation Route
 
-@synthesize name;
+@synthesize title;
+
+
++(Route*) initRouteWithDictionary:(NSDictionary*) attributes
+{
+    Route *route = [[Route alloc]  init];
+    
+    route.title =   attributes[@"route_title"];
+    
+    return route;
+}
 
 @end

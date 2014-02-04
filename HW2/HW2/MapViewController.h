@@ -10,6 +10,8 @@
 
 @interface MapViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *labelOfRoute;
+
 - (IBAction)longTap:(id)sender;
 
 @end

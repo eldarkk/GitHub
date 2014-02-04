@@ -1,0 +1,4 @@
+platform :ios, '6.0'
+pod 'HTProgressHUD'
+pod 'AFNetworking', '0.10.1'
+pod 'JASidePanels'

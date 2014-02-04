@@ -11,6 +11,8 @@
 @interface Route : NSObject
 
 
-@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *title;
+
++(Route*) initRouteWithDictionary:(NSDictionary*) attributes;
 
 @end

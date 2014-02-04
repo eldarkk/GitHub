@@ -7,8 +7,11 @@
 //
 
 #import "MapViewController.h"
+#import "LoginViewController.h"
 
 @implementation MapViewController
+
+@synthesize labelOfRoute;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,23 +32,18 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView
+-(void)viewDidLoad
 {
+    [super   viewDidLoad];
+    
+    UIViewController *loginController = [self.storyboard instantiateViewControllerWithIdentifier:@"AuthNavigationController"];
+    [self.navigationController presentViewController:loginController animated:YES completion:nil];
+    
 }
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-}
-*/
 
 - (void)viewDidUnload
 {
+    [self setLabelOfRoute:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
