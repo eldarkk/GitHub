@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844A247718AF013C007FA27C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844A247618AF013B007FA27C /* MapKit.framework */; };
 		84880E5D1899967E00BE72E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84880E5C1899967E00BE72E4 /* Default-568h@2x.png */; };
 		84A4F74C1899CFB700FEB0A8 /* MySidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4F74B1899CFB700FEB0A8 /* MySidePanelController.m */; };
 		84A4F74F1899D7E200FEB0A8 /* RoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4F74E1899D7E100FEB0A8 /* RoutesViewController.m */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		74F1F87B3066419AAA501CA9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		844A247618AF013B007FA27C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		84880E5C1899967E00BE72E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		84A4F74A1899CFB700FEB0A8 /* MySidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySidePanelController.h; sourceTree = "<group>"; };
 		84A4F74B1899CFB700FEB0A8 /* MySidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySidePanelController.m; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844A247718AF013C007FA27C /* MapKit.framework in Frameworks */,
 				84F5D940188A13100079FEF7 /* UIKit.framework in Frameworks */,
 				84F5D942188A13100079FEF7 /* Foundation.framework in Frameworks */,
 				84F5D944188A13100079FEF7 /* CoreGraphics.framework in Frameworks */,
@@ -79,6 +82,7 @@
 		84F5D930188A13100079FEF7 = {
 			isa = PBXGroup;
 			children = (
+				844A247618AF013B007FA27C /* MapKit.framework */,
 				84880E5C1899967E00BE72E4 /* Default-568h@2x.png */,
 				84F5D945188A13100079FEF7 /* HW2 */,
 				84F5D93E188A13100079FEF7 /* Frameworks */,
@@ -122,11 +126,11 @@
 				84F5D951188A13100079FEF7 /* MainStoryboard.storyboard */,
 				84F5D954188A13100079FEF7 /* LoginViewController.h */,
 				84F5D955188A13100079FEF7 /* LoginViewController.m */,
+				84A4F74A1899CFB700FEB0A8 /* MySidePanelController.h */,
+				84A4F74B1899CFB700FEB0A8 /* MySidePanelController.m */,
 				84F5D946188A13100079FEF7 /* Supporting Files */,
 				84BB27CA18972A3E007A95E8 /* MapViewController.h */,
 				84BB27CB18972A3E007A95E8 /* MapViewController.m */,
-				84A4F74A1899CFB700FEB0A8 /* MySidePanelController.h */,
-				84A4F74B1899CFB700FEB0A8 /* MySidePanelController.m */,
 				84A4F74D1899D7E100FEB0A8 /* RoutesViewController.h */,
 				84A4F74E1899D7E100FEB0A8 /* RoutesViewController.m */,
 			);

@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RoutesViewController.h"
+#import "Route.h"
 
-@interface MapViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *labelOfRoute;
 
-- (IBAction)longTap:(id)sender;
+@interface MapViewController : UIViewController <RoutesMenuProtocol>
+
+-(void) didSelectRoute:(Route *)route;
+
+
 
 @end

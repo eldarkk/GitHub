@@ -9,21 +9,23 @@
 #import "RoutesViewController.h"
 #import <AFNetworking.h>
 #import "Route.h"
-#import "MapViewController.h"
 #import <HTProgressHUD.h>
+#import <JASidePanelController.h>
+#import <UIViewController+JASidePanel.h>
 
-@interface RoutesViewController ()
 
-@end
+
 
 @implementation RoutesViewController
 
-@synthesize routes;
+@synthesize  delegate;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-          
+   
+    
+    
     NSURL *url = [NSURL URLWithString:@"http://marshrutki.com.ua/mu/routes.php"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
@@ -31,7 +33,7 @@
     [HUD showInView:self.view];
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-       NSLog(@"App.net Global Stream: %@", JSON);
+//       NSLog(@"App.net Global Stream: %@", JSON);
 
            
         self.routes =   [[NSMutableArray alloc] init];
@@ -43,8 +45,7 @@
         [HUD hide];
         [self.tableView reloadData];
         
-        
-    
+            
     } failure:nil];
     [operation start];
     [HUD hideAfterDelay:3];
@@ -63,8 +64,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
-    
-    return self.routes.count;
+        return self.routes.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -83,9 +83,17 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 { 
-    MapViewController *detailMapViewController = [[MapViewController alloc] init];
-    detailMapViewController.labelOfRoute.text = self.routes[indexPath.row];
-    [self.navigationController pushViewController:detailMapViewController animated:YES];
+    Route* route = (Route*) self.routes[indexPath.row];
+ 
+    if (self.delegate && [delegate respondsToSelector:@selector(didSelectRoute:)]){
+        [self.delegate didSelectRoute:route];
+    } 
+   
+    [self.sidePanelController showCenterPanelAnimated:YES];
     }
+
+
+
+
 
 @end

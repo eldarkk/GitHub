@@ -7,10 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
+#import <JASidePanelController.h>
+#import <UIViewController+JASidePanel.h>
+
+@class MapViewController, Route;
+
+@protocol RoutesMenuProtocol <NSObject>
+@required
+-(void) didSelectRoute:(Route*)route;
+@end
+
 
 @interface RoutesViewController : UITableViewController
 
-@property (strong, nonatomic) NSMutableArray *routes;
+@property   (weak, nonatomic) id <RoutesMenuProtocol> delegate;
+@property (strong, nonatomic)   NSMutableArray* routes;
 
 @end

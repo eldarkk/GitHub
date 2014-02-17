@@ -7,6 +7,9 @@
 //
 
 #import "MySidePanelController.h"
+#import "MapViewController.h"
+#import "RoutesViewController.h"
+
 
 @interface MySidePanelController ()
 
@@ -25,8 +28,16 @@
 
 -(void) awakeFromNib
 {
-    [self setLeftPanel:[self.storyboard instantiateViewControllerWithIdentifier:@"leftViewController"]];
-    [self setCenterPanel:[self.storyboard instantiateViewControllerWithIdentifier:@"centerViewController"]];
+    UINavigationController* navigationController = [self.storyboard instantiateViewControllerWithIdentifier:@"centerViewController"];
+    
+    MapViewController* mapViewController = (MapViewController*)[navigationController topViewController];
+    
+    RoutesViewController* routesViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"leftViewController"];
+
+    routesViewController.delegate = mapViewController;
+    [self setLeftPanel:routesViewController];
+    [self setCenterPanel:navigationController];
+    
 }
 
 - (void)viewDidLoad

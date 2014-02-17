@@ -11,7 +11,6 @@
 
 @implementation MapViewController
 
-@synthesize labelOfRoute;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,14 +35,16 @@
 {
     [super   viewDidLoad];
     
-    UIViewController *loginController = [self.storyboard instantiateViewControllerWithIdentifier:@"AuthNavigationController"];
-    [self.navigationController presentViewController:loginController animated:YES completion:nil];
+    
+ 
+    
+//    UIViewController *loginController = [self.storyboard instantiateViewControllerWithIdentifier:@"AuthNavigationController"];
+ //   [self.navigationController presentViewController:loginController animated:YES completion:nil];
     
 }
 
 - (void)viewDidUnload
 {
-    [self setLabelOfRoute:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -55,10 +56,15 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)longTap:(id)sender {
+
+
+-(void) didSelectRoute:(Route *)route  {
     
-    NSLog(@"Long tap!");
+    self.navigationItem.title = route.title;
+    
 }
+
+
 
 
 @end
