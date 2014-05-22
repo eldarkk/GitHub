@@ -12,6 +12,10 @@
 
 
 @property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSNumber *price;
+@property (nonatomic) BOOL *isFav;
+
+
 
 +(Route*) initRouteWithDictionary:(NSDictionary*) attributes;
 

@@ -10,14 +10,15 @@
 
 @implementation Route
 
-@synthesize title;
+@synthesize title, price, isFav;
 
 
 +(Route*) initRouteWithDictionary:(NSDictionary*) attributes
 {
     Route *route = [[Route alloc]  init];
     
-    route.title =   attributes[@"route_title"];
+    route.title = attributes[@"route_title"];
+    route.price = attributes[@"route_price"];
     
     return route;
 }

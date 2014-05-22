@@ -60,7 +60,7 @@
 
 -(void) didSelectRoute:(Route *)route  {
     
-    self.navigationItem.title = route.title;
+    self.title = route.title;
     
 }
 

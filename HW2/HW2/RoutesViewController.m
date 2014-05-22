@@ -33,7 +33,7 @@
     [HUD showInView:self.view];
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-//       NSLog(@"App.net Global Stream: %@", JSON);
+       NSLog(@"App.net Global Stream: %@", JSON);
 
            
         self.routes =   [[NSMutableArray alloc] init];
@@ -76,6 +76,7 @@
     
     Route* route = (Route*) self.routes[indexPath.row];
     cell.textLabel.text = route.title;
+    cell.detailTextLabel.text = (NSString*) route.price;
     
     return cell;
 }

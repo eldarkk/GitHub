@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8445B366192D71A600035B1A /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8445B365192D71A600035B1A /* Animal.m */; };
+		8445B369192D748400035B1A /* Horse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8445B368192D748400035B1A /* Horse.m */; };
+		8445B36C192D74AE00035B1A /* Cow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8445B36B192D74AE00035B1A /* Cow.m */; };
+		845C4436192AB23300B35A08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C4435192AB23300B35A08 /* UIKit.framework */; };
+		845C4438192AB23300B35A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C4437192AB23300B35A08 /* Foundation.framework */; };
+		845C443A192AB23300B35A08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C4439192AB23300B35A08 /* CoreGraphics.framework */; };
+		845C4440192AB23300B35A08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 845C443E192AB23300B35A08 /* InfoPlist.strings */; };
+		845C4442192AB23300B35A08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C4441192AB23300B35A08 /* main.m */; };
+		845C4446192AB23300B35A08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C4445192AB23300B35A08 /* AppDelegate.m */; };
+		845C4448192AB23300B35A08 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 845C4447192AB23300B35A08 /* Default.png */; };
+		845C444A192AB23300B35A08 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845C4449192AB23300B35A08 /* Default@2x.png */; };
+		845C444C192AB23300B35A08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 845C444B192AB23300B35A08 /* Default-568h@2x.png */; };
+		849AD34A192AB2C800AEB276 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 849AD349192AB2C800AEB276 /* Human.m */; };
+		849AD34D192AB4B300AEB276 /* Cyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = 849AD34C192AB4B300AEB276 /* Cyclist.m */; };
+		849AD350192AB4F700AEB276 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 849AD34F192AB4F700AEB276 /* Runner.m */; };
+		849AD353192AB53300AEB276 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 849AD352192AB53300AEB276 /* Swimmer.m */; };
+		84D1BFC3192C164E00157FEB /* Alien.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D1BFC2192C164E00157FEB /* Alien.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8445B364192D71A600035B1A /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		8445B365192D71A600035B1A /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		8445B367192D748400035B1A /* Horse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horse.h; sourceTree = "<group>"; };
+		8445B368192D748400035B1A /* Horse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horse.m; sourceTree = "<group>"; };
+		8445B36A192D74AE00035B1A /* Cow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cow.h; sourceTree = "<group>"; };
+		8445B36B192D74AE00035B1A /* Cow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cow.m; sourceTree = "<group>"; };
+		845C4432192AB23300B35A08 /* Skutarenko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skutarenko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845C4435192AB23300B35A08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		845C4437192AB23300B35A08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		845C4439192AB23300B35A08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		845C443D192AB23300B35A08 /* Skutarenko-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Skutarenko-Info.plist"; sourceTree = "<group>"; };
+		845C443F192AB23300B35A08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		845C4441192AB23300B35A08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845C4443192AB23300B35A08 /* Skutarenko-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Skutarenko-Prefix.pch"; sourceTree = "<group>"; };
+		845C4444192AB23300B35A08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845C4445192AB23300B35A08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845C4447192AB23300B35A08 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		845C4449192AB23300B35A08 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		845C444B192AB23300B35A08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		849AD348192AB2C800AEB276 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		849AD349192AB2C800AEB276 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		849AD34B192AB4B300AEB276 /* Cyclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cyclist.h; sourceTree = "<group>"; };
+		849AD34C192AB4B300AEB276 /* Cyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cyclist.m; sourceTree = "<group>"; };
+		849AD34E192AB4F700AEB276 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		849AD34F192AB4F700AEB276 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		849AD351192AB53300AEB276 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
+		849AD352192AB53300AEB276 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
+		84D1BFC1192C164E00157FEB /* Alien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alien.h; sourceTree = "<group>"; };
+		84D1BFC2192C164E00157FEB /* Alien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alien.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845C442F192AB23300B35A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845C4436192AB23300B35A08 /* UIKit.framework in Frameworks */,
+				845C4438192AB23300B35A08 /* Foundation.framework in Frameworks */,
+				845C443A192AB23300B35A08 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845C4429192AB23200B35A08 = {
+			isa = PBXGroup;
+			children = (
+				845C443B192AB23300B35A08 /* Skutarenko */,
+				845C4434192AB23300B35A08 /* Frameworks */,
+				845C4433192AB23300B35A08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845C4433192AB23300B35A08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845C4432192AB23300B35A08 /* Skutarenko.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845C4434192AB23300B35A08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845C4435192AB23300B35A08 /* UIKit.framework */,
+				845C4437192AB23300B35A08 /* Foundation.framework */,
+				845C4439192AB23300B35A08 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845C443B192AB23300B35A08 /* Skutarenko */ = {
+			isa = PBXGroup;
+			children = (
+				8445B36A192D74AE00035B1A /* Cow.h */,
+				8445B36B192D74AE00035B1A /* Cow.m */,
+				8445B367192D748400035B1A /* Horse.h */,
+				8445B368192D748400035B1A /* Horse.m */,
+				8445B364192D71A600035B1A /* Animal.h */,
+				8445B365192D71A600035B1A /* Animal.m */,
+				84D1BFC1192C164E00157FEB /* Alien.h */,
+				84D1BFC2192C164E00157FEB /* Alien.m */,
+				845C4444192AB23300B35A08 /* AppDelegate.h */,
+				845C4445192AB23300B35A08 /* AppDelegate.m */,
+				849AD348192AB2C800AEB276 /* Human.h */,
+				849AD349192AB2C800AEB276 /* Human.m */,
+				849AD34B192AB4B300AEB276 /* Cyclist.h */,
+				849AD34C192AB4B300AEB276 /* Cyclist.m */,
+				849AD34E192AB4F700AEB276 /* Runner.h */,
+				849AD34F192AB4F700AEB276 /* Runner.m */,
+				849AD351192AB53300AEB276 /* Swimmer.h */,
+				849AD352192AB53300AEB276 /* Swimmer.m */,
+				845C443C192AB23300B35A08 /* Supporting Files */,
+			);
+			path = Skutarenko;
+			sourceTree = "<group>";
+		};
+		845C443C192AB23300B35A08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				845C443D192AB23300B35A08 /* Skutarenko-Info.plist */,
+				845C443E192AB23300B35A08 /* InfoPlist.strings */,
+				845C4441192AB23300B35A08 /* main.m */,
+				845C4443192AB23300B35A08 /* Skutarenko-Prefix.pch */,
+				845C4447192AB23300B35A08 /* Default.png */,
+				845C4449192AB23300B35A08 /* Default@2x.png */,
+				845C444B192AB23300B35A08 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845C4431192AB23300B35A08 /* Skutarenko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845C444F192AB23300B35A08 /* Build configuration list for PBXNativeTarget "Skutarenko" */;
+			buildPhases = (
+				845C442E192AB23300B35A08 /* Sources */,
+				845C442F192AB23300B35A08 /* Frameworks */,
+				845C4430192AB23300B35A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skutarenko;
+			productName = Skutarenko;
+			productReference = 845C4432192AB23300B35A08 /* Skutarenko.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845C442A192AB23200B35A08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Eldar;
+			};
+			buildConfigurationList = 845C442D192AB23200B35A08 /* Build configuration list for PBXProject "Skutarenko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 845C4429192AB23200B35A08;
+			productRefGroup = 845C4433192AB23300B35A08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845C4431192AB23300B35A08 /* Skutarenko */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845C4430192AB23300B35A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845C4440192AB23300B35A08 /* InfoPlist.strings in Resources */,
+				845C4448192AB23300B35A08 /* Default.png in Resources */,
+				845C444A192AB23300B35A08 /* Default@2x.png in Resources */,
+				845C444C192AB23300B35A08 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845C442E192AB23300B35A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845C4442192AB23300B35A08 /* main.m in Sources */,
+				845C4446192AB23300B35A08 /* AppDelegate.m in Sources */,
+				849AD34A192AB2C800AEB276 /* Human.m in Sources */,
+				849AD34D192AB4B300AEB276 /* Cyclist.m in Sources */,
+				849AD350192AB4F700AEB276 /* Runner.m in Sources */,
+				849AD353192AB53300AEB276 /* Swimmer.m in Sources */,
+				84D1BFC3192C164E00157FEB /* Alien.m in Sources */,
+				8445B366192D71A600035B1A /* Animal.m in Sources */,
+				8445B369192D748400035B1A /* Horse.m in Sources */,
+				8445B36C192D74AE00035B1A /* Cow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845C443E192AB23300B35A08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845C443F192AB23300B35A08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845C444D192AB23300B35A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		845C444E192AB23300B35A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845C4450192AB23300B35A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skutarenko/Skutarenko-Prefix.pch";
+				INFOPLIST_FILE = "Skutarenko/Skutarenko-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		845C4451192AB23300B35A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skutarenko/Skutarenko-Prefix.pch";
+				INFOPLIST_FILE = "Skutarenko/Skutarenko-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845C442D192AB23200B35A08 /* Build configuration list for PBXProject "Skutarenko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845C444D192AB23300B35A08 /* Debug */,
+				845C444E192AB23300B35A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845C444F192AB23300B35A08 /* Build configuration list for PBXNativeTarget "Skutarenko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845C4450192AB23300B35A08 /* Debug */,
+				845C4451192AB23300B35A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845C442A192AB23200B35A08 /* Project object */;
+}
